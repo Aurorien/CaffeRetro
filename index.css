@@ -2,17 +2,17 @@
   --main-color: #8c0000;
   --main-color-transparent: #8c0000c8;
   --text-color: #fefdfe;
-  --bg-purple: #150910e6;
+  --bg-purple: #150910c3;
   --bg-black: #111111e6;
 }
 
 * {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 body {
-  /* background-color: var(--main-color); */
   color: var(--text-color);
   font-family: "Poiret One", sans-serif;
 }
@@ -40,11 +40,12 @@ a {
 nav,
 h1 {
   font-family: "Spirax", sans-serif;
-  font-size: larger;
+  font-size: 1.9rem;
 }
 
 h1 {
   color: var(--main-color);
+  font-size: 4rem;
 }
 
 section {
@@ -81,7 +82,6 @@ section {
 .juicy,
 .cosy {
   width: 100%;
-
   margin: 0 3rem;
 }
 
@@ -93,8 +93,8 @@ section {
 
 .section-p {
   background-color: var(--main-color-transparent);
-  padding: 1rem;
-  text-align: center;
+  padding: 0.7rem 0;
+  font-size: 1.2rem;
 }
 
 .section-ul {
