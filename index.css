@@ -131,8 +131,13 @@ section {
     font-size: 5.1rem;
   }
 
-  .wrapper {
+  .wrapper,
+  .first-p,
+  .second-p {
     position: relative;
+  }
+
+  .wrapper {
     top: -4rem;
   }
 
@@ -143,6 +148,14 @@ section {
   .section-p,
   .section-ul {
     width: 40%;
+  }
+
+  .first-p {
+    right: 3.8rem;
+  }
+
+  .second-p {
+    left: 4rem;
   }
 
   .desktop-only {
