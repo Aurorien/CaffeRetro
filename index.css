@@ -54,27 +54,19 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  height: 100vh;
 }
 
-#hot {
-  background-image: url("./assets/hot.jpg");
-}
-
-#juicy {
-  background-image: url("./assets/juicy.jpg");
-}
-
-#cosy {
-  background-image: url("./assets/cosy.jpg");
-}
-
-#hot,
-#juicy,
-#cosy {
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  height: auto;
+.section-bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
 }
 
 #hot,
