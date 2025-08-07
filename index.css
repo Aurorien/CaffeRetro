@@ -1,5 +1,6 @@
 :root {
   --main-color: #8c0000;
+  --main-color-transparent: #8c0000c8;
   --text-color: #fefdfe;
   --bg-purple: #150910e6;
   --bg-black: #111111e6;
@@ -76,8 +77,24 @@ section {
   border-bottom: solid 1rem var(--main-color);
 }
 
-.hot {
+.hot,
+.juicy,
+.cosy {
+  width: 100%;
+
   margin: 0 3rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.section-p {
+  background-color: var(--main-color-transparent);
+  padding: 1rem;
+  text-align: center;
 }
 
 .section-ul {
