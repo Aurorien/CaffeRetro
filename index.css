@@ -24,6 +24,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  gap: 7%;
   background-color: var(--bg-purple);
   font-size: 1.5rem;
   padding: 0.8rem 0;
@@ -36,7 +37,7 @@ li {
 a {
   color: var(--link-color);
   text-decoration: none;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
 }
 
 nav,
@@ -72,7 +73,8 @@ section {
 #cosy {
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
 }
 
 #hot,
@@ -121,16 +123,18 @@ section {
 }
 
 @media screen and (min-width: 760px) {
+  a {
+    font-size: 2rem;
+  }
+
   h1 {
     font-size: 5.1rem;
   }
 
-  /* #hot,
-  #juicy,
-  #cosy {
-    background-position: calc(50% + 3rem) center;
-    background-repeat: no-repeat;
-  } */
+  .wrapper {
+    position: relative;
+    top: -4rem;
+  }
 
   .section-ul {
     padding: 1rem 2.7rem;
