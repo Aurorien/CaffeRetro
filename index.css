@@ -151,7 +151,7 @@ section {
   display: none;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   a {
     font-size: 2rem;
   }
